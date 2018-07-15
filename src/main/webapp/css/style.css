@@ -1,0 +1,107 @@
+a{
+    font-family: Bobcat;
+    text-decoration: none;
+    font-size: 250%;
+    color: #6a00ff;
+}
+
+div.authorization{
+    background-color: #5ec4ff;
+    border: 4px double black;
+    padding: 30px;
+    font-family: Bobcat;
+    font-size: 150%;
+    border-radius: 33px;
+    width: 350px;
+}
+
+input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 26px;
+    background-color: white;
+    border-radius: 33px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+div.IncorrectPassword{
+    border: 5px double black;
+    border-radius: 40px;
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    font-family: Bobcat;
+    font-size: 50px;
+    background-color: buttonface;
+}
+
+div.IncorrectPasswordImg img{
+    position: absolute;
+    bottom: 0;
+}
+
+div.request_apartment{
+    font-family: Bobcat;
+    font-size: 250%;
+}
+
+h1{ 
+    color: black;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+p{ 
+    font-size: 30px; 
+    letter-spacing: -1px; 
+    color: #DFBF84; 
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 0 #000;
+    margin: 10px 0 24px; 
+    text-align: center; 
+    line-height: 50px;
+}
+
+h2{ 
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center; 
+    
+    border: 5px double black;
+    border-radius: 40px;
+    
+    background: #6190E8; 
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8); 
+    background: linear-gradient(to right, #A7BFE8, #6190E8);
+
+}
+
+em {
+  font-family: 'EB Garamond', serif;
+  text-align: center; 
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style:normal;
+  padding-top: 0.1em;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+body{
+  background: #C9D6FF; 
+  background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  
+  background: linear-gradient(to left, #E2E2E2, #C9D6FF); 
+}
