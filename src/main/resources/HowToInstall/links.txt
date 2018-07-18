@@ -1,0 +1,17 @@
+Java SE Development Kit 8 Downloads
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Microsoft .NET Framework 4.6 Preview (Offline Installer) for Windows Vista SP2, Windows 7 SP1
+https://www.microsoft.com/en-us/download/details.aspx?id=44927
+
+Visual C++ Redistributable for Visual Studio 2015 
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=48145
+
+mysql-installer-community-8.0.11.0.msi
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.11.0.msi
+
+NetBeans 8.2
+https://netbeans.org/downloads/start.html?platform=windows&lang=ru&option=all
+
+GitHub
+https://github.com/NonZhan/HotelRoomReservationV1
