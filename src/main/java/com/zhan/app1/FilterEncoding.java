@@ -17,7 +17,7 @@ public class FilterEncoding implements Filter
     @Override
     public void init(FilterConfig filterConfig) throws ServletException 
     {
-        System.out.println("Initializing some data filter 1...");
+        System.out.println("Initializing FilterEncoding...");
     }
 
     @Override
@@ -26,7 +26,7 @@ public class FilterEncoding implements Filter
         HttpServletRequest req = (HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
         
-        System.out.println("Check charset filter 1...");
+        System.out.println("Check charset FilterEncoding...");
         System.out.println("");
         
         String encodingReq = req.getCharacterEncoding();
@@ -51,7 +51,7 @@ public class FilterEncoding implements Filter
     @Override
     public void destroy() 
     {
-        System.out.println("Destroy data filter 1....");
+        System.out.println("Destroy FilterEncoding....");
     }
     
 }

@@ -51,6 +51,7 @@ public class ListOpenRooms extends BodyTagSupport{
                 out.println("Email = " + email + Enter);
                 
                 out.println("====================");
+                out.println(Enter);
             }
         
             stmt.close();

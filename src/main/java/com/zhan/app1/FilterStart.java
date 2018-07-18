@@ -16,7 +16,7 @@ public class FilterStart implements Filter
     @Override
     public void init(FilterConfig filterConfig) throws ServletException 
     {
-        System.out.println("Initializing some data filter 2...");
+        System.out.println("Initializing FilterStart...");
     }
 
     @Override
@@ -26,7 +26,7 @@ public class FilterStart implements Filter
         HttpServletRequest req = (HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
         
-        System.out.println("filter 2...");
+        System.out.println("FilterStart ...");
         
         String action = req.getParameter("action");
         
@@ -40,7 +40,7 @@ public class FilterStart implements Filter
     @Override
     public void destroy() 
     {
-        System.out.println("Initializing some data filter 2...");
+        System.out.println("Destroy FilterStart...");
     }
     
 }

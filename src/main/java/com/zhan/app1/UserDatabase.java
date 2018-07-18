@@ -38,19 +38,9 @@ public class UserDatabase
         String sql = "select * from client where email = \"" + email +"\";";
         ResultSet rs = stmt.executeQuery(sql);
         
-        while(rs.next())
+        if(rs.next() == false)
         {
-            String emailDB = rs.getString("email");
-            System.out.println("emailDB = " + emailDB);
-            
-            if(emailDB.equals(email))
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            return true;
         }
         
         return false;

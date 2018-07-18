@@ -278,6 +278,8 @@ public class Controller extends HttpServlet
             String login = (String) session.getAttribute("login");
             String password = (String) session.getAttribute("password");
             
+            log.info(login + " " + password + " session");
+            
             if(login != null && password != null)
             {
                 Room room = new Room();
@@ -297,6 +299,8 @@ public class Controller extends HttpServlet
             
             String login = (String) session.getAttribute("login");
             String password = (String) session.getAttribute("password");
+            
+            log.info(login + " " + password + " session");
             
             if(login != null && password != null)
             {

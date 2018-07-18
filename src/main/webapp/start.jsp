@@ -21,12 +21,12 @@
             <img src="img/logo.png" alt=""/>
         </div>
         
-        <a href="login.jsp"> <fmt:message key="login"/> </a>
+        <a href="login"> <fmt:message key="login"/> </a>
         
         <br><br>
         
         <jsp:include page="login.jsp" />
-        <a href="register.jsp"> <fmt:message key="registration"/> </a>
+        <a href="register"> <fmt:message key="registration"/> </a>
            
     </center>
 

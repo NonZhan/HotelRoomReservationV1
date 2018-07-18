@@ -25,6 +25,8 @@
             
             <input type="submit" value="<fmt:message key="Update"/>">
             
+        <a href="request_apartment"><img src="img/backward.png"/></a>
+            
         </form>
     </body>
 </html>

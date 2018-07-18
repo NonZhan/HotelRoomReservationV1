@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <fmt:setBundle basename="text" scope="session"/>
 <html>
@@ -36,9 +37,16 @@
             
         </form>
         
-        <div class="IncorrectPassword">
-            <${IncorrectPassword}
-        </div>
+        <c:if test="${IncorrectPassword != null}">
+            <br> <br> <br> <br>
+            <center>
+                <div class="IncorrectPassword">
+                    <${IncorrectPassword}
+                </div>
+            </center>    
+        </c:if>
+    
+    <a href="start"><img src="img/backward.png"/></a>
         
     </body>
 </html>
