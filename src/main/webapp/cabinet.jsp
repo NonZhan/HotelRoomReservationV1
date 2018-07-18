@@ -16,10 +16,6 @@
         
         <br><br>
         
-        <a href="wait_order"><img height="250px" src="img/wait_order.png"/></a>
-        
-        <br><br>
-        
         <jsp:include page="request_apartment" />
         
     </body>

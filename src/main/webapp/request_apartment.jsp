@@ -11,6 +11,8 @@
         <link rel="shortcut icon" href="img/mini.png" type="image/png">
     </head>
     <body>
+        
+        <a href="wait_order"><img height="250px" src="img/wait_order.png"/></a>
 
     <div class="request_apartment">
         
