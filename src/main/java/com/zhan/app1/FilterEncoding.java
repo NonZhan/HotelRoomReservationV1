@@ -11,10 +11,8 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Filter1 implements Filter  
+public class FilterEncoding implements Filter  
 {
-    
-    // res.setContentType("text/html;charset=UTF-8");
     
     @Override
     public void init(FilterConfig filterConfig) throws ServletException 

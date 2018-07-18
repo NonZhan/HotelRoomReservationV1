@@ -5,9 +5,9 @@ import java.util.ResourceBundle;
 
 public class User {
     
-    Locale current = Locale.getDefault();    
-    Locale lang = new Locale(current.getLanguage(), current.getCountry());
-    ResourceBundle res = ResourceBundle.getBundle("text", lang);
+    private final Locale current = Locale.getDefault();    
+    private final Locale lang = new Locale(current.getLanguage(), current.getCountry());
+    private final ResourceBundle res = ResourceBundle.getBundle("text", lang);
     
     private String email = "";
     private String password = "";

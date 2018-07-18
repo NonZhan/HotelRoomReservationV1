@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class Database 
+public class UserDatabase 
 {
     
     private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";

@@ -13,9 +13,9 @@ public class RequestApartment {
     
     private String message;
     
-    Locale current = Locale.getDefault();    
-    Locale lang = new Locale(current.getLanguage(), current.getCountry());
-    ResourceBundle res = ResourceBundle.getBundle("text", lang);
+    private final Locale current = Locale.getDefault();    
+    private final Locale lang = new Locale(current.getLanguage(), current.getCountry());
+    private final ResourceBundle res = ResourceBundle.getBundle("text", lang);
         
     public RequestApartment(String leaseTime, String numberRooms, String desiredPrice, String recommendation, String phone){
         this.leaseTime = leaseTime;

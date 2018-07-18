@@ -31,21 +31,21 @@
     </servlet-mapping>
       
     <filter>
-        <filter-name>Filter1</filter-name>
-        <filter-class>com.zhan.app1.Filter1</filter-class>
+        <filter-name>FilterEncoding</filter-name>
+        <filter-class>com.zhan.app1.FilterEncoding</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>Filter1</filter-name>
+        <filter-name>FilterEncoding</filter-name>
         <url-pattern>/</url-pattern>
         <url-pattern>/Controller</url-pattern>
     </filter-mapping>
     
     <filter>
-        <filter-name>Filter2</filter-name>
-        <filter-class>com.zhan.app1.Filter2</filter-class>
+        <filter-name>FilterStart</filter-name>
+        <filter-class>com.zhan.app1.FilterStart</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>Filter2</filter-name>
+        <filter-name>FilterStart</filter-name>
         <url-pattern>/</url-pattern>
     </filter-mapping>
     
